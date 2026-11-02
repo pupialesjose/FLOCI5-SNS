@@ -1,6 +1,6 @@
 # Ajusta el endpoint al que usaste en tus prácticas anteriores
 $endpoint = "http://localhost:4566"
-$region   = "us-east-2"
+$region   = "us-east-1"
 
 # 1. Crear el topic
 $topicArn = aws sns create-topic --name topico-polizas `
