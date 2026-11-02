@@ -384,10 +384,10 @@ Contar "cola-notificaciones"
 
 **Conclusión:** cada suscriptor tiene **su propia copia** y la procesa a su ritmo.
 
-📝 **Mi resultado:**
+
 
 ```
-(pegar aquí la salida de mi terminal)
+
 ```
 
 ---
@@ -409,10 +409,10 @@ Contar "cola-notificaciones"
 
 ✅ **Resultado esperado:** ambas colas suben en 1 mensaje.
 
-📝 **Mi resultado:**
+
 
 ```
-(pegar aquí la salida de mi terminal)
+
 ```
 
 ---
@@ -487,10 +487,10 @@ aws sqs receive-message --queue-url $urlNotif --max-number-of-messages 10 --visi
 
 > 💡 Lo importante es comparar el "antes" y el "después" de cada cola, no el número absoluto. Si una cola ya tenía mensajes de experimentos anteriores, su contador parte de otro valor.
 
-📝 **Mi resultado:**
+
 
 ```
-(pegar aquí la salida de mi terminal)
+
 ```
 
 ---
