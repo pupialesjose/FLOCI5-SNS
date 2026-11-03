@@ -1,4 +1,4 @@
-# Ajusta el endpoint al que usaste en tus prácticas anteriores
+# Ajusta el endpoint 
 $endpoint = "http://localhost:4566"
 $region   = "us-east-1"
 
